@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import {StyleSheet, Pressable, Text, View } from "react-native";
 
-export default function Counter() {
+export default function Cards() {
   const [isPressed1, setIsPressed1] = useState(false); //Estado del botón 1
   const [isPressed2, setIsPressed2] = useState(false); //Estado del botón 1
   const [isPressed3, setIsPressed3] = useState(false); //Estado del botón 1
