@@ -34,7 +34,7 @@ export default function Profile() {
                         value={newName}
                         onChangeText={setNewName}
                     />
-                    <Button title="Guardar" onPress={handleSave} />
+                    <Button title="Save" onPress={handleSave} />
                 </View>
             )}
         </View>
